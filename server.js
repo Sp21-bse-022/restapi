@@ -9,7 +9,7 @@ mongoose.connect('mongodb+srv://sp21bse022:yousafzaI13@product.mrpqpvz.mongodb.n
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => console.log('MongoDB connected'))
-console.log('MongoDB connected')
+
   .catch(err => console.error('MongoDB connection error:', err));
 
 // Body parser middleware
