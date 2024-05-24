@@ -4,11 +4,13 @@ const mongoose = require('mongoose');
 const app = express();
 const PORT = process.env.PORT || 4000;
 
+
 // Connect to MongoDB
 mongoose.connect('mongodb+srv://sp21bse022:yousafzaI13@product.mrpqpvz.mongodb.net/', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(() => console.log('MongoDB connected'))
+
 
   .catch(err => console.error('MongoDB connection error:', err));
 
